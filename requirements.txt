@@ -1,0 +1,8 @@
+Flask
+transformers
+torch
+python-docx
+PyMuPDF
+gunicorn
+python-dotenv
+requests
