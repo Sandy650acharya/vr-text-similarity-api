@@ -1,1 +1,1 @@
-This document talks about semantic similarity and VR integration in education.
+This text is about similarity checking using models.

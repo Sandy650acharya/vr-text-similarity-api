@@ -1,8 +1,6 @@
 import requests
-
-# Flask server URL
-url = 'http://127.0.0.1:8086/compare'
-
+# ✅ Correct endpoint URL
+url = 'https://vr-text-similarity-api.onrender.com/compare'
 # Full absolute path to sample.txt
 file_path = r'F:\vr-text-similarity-app\vr-text-similarity-app\sample.txt'
 
@@ -17,7 +15,7 @@ files = {
     'file': open(file_path, 'rb')
 }
 
-# Send the request
+# Send the POST request
 response = requests.post(url, data=data, files=files)
 
 # Output the results
